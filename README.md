@@ -1,24 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a chat app. This is still a work in progress.
+I will have to take more time and read more on the Java script functionality with rails 7, especially with Action cable.
 
-Things you may want to cover:
+My messages are not appended on the chatroom in real time. I have to refresh the page. 
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I will come back to it later.

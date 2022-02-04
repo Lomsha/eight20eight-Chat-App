@@ -6,6 +6,16 @@ import "controllers"
 //= require semantic-ui
 //= require semantic-ui/modal
 //= require semantic-ui/dropdown
+ 
+scroll_bottom = function() {
+if ($('#messages').length > 0) {
+$('#messages').scrollTop($('#messages')[0].scrollHeight);
+
+}
+
+}
+
+
 
 $(document).on('turbolinks:load', function()  {
 $('.ui.dropdown').dropdown();
@@ -13,13 +23,12 @@ $('.message .close')
   .on('click', function() {
     $(this)
       .closest('.message')
-      .transition('fade')
-    ;
-  })
-;
-
+      .transition('fade');
+  });
+  scroll_bottom(); 
 })
 
 
 
 
+import "channels"
